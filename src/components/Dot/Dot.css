@@ -1,0 +1,19 @@
+.dot {
+    position: relative;
+    border: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.dot__image {
+    border: 0.6em solid #DBDBDB;
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.dot__image--is-active {
+    border-color: #5131D7;
+    transition: border 0s linear;
+    transition-delay: 500ms;
+}

@@ -1,0 +1,25 @@
+.connection {
+    width: calc(100% - 2.4em);
+    height: 0.25em;
+    background: #DBDBDB;
+    position: absolute;
+    bottom: 1.3em;
+    left: calc(1.2em - 50%);
+    z-index: 0;
+}
+
+.connection:after {
+    content: '';
+    background-color: #5131D7;
+    height: 0.25em;
+    left: 0;
+    position: absolute;
+    transition: width 500ms ease-in-out;
+    width: 0;
+    z-index: 2;
+}
+
+.connection--is-active:after {
+    width: 100%;
+    transition: width 500ms ease-in-out;
+}

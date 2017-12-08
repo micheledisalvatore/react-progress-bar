@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Step component when it is rendered should match the snapshot 1`] = `
+<div
+  className="step"
+>
+  <Unknown
+    isActive={false}
+  />
+  <div
+    className="step__description"
+  >
+    titleFoo
+  </div>
+  <Unknown
+    isActive={false}
+    onClick={[Function]}
+    step={1}
+  />
+</div>
+`;

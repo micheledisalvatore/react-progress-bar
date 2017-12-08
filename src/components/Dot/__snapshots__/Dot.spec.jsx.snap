@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Dot component when it is rendered should match the snapshot 1`] = `
+<button
+  className="dot"
+  onClick={[Function]}
+>
+  <svg
+    className="dot__image"
+    viewBox="0 0 32 32"
+  />
+</button>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given an App component when it is rendered should match the snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <h1>
+      Change here the steps number
+    </h1>
+    <button
+      name="decrease"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <button
+      name="increase"
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+  <Unknown
+    current={1}
+    onClick={[Function]}
+    total={2}
+  />
+</div>
+`;

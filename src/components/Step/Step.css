@@ -1,0 +1,26 @@
+.step {
+    flex-grow: 1;
+    position: relative;
+}
+
+.step__dot {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: -2.3em;
+    left: 0;
+}
+
+.step__description {
+    position: relative;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #aaa;
+    top: -1em;
+}
+
+.step__description--is-active {
+    color: #5131D7;
+    transition: color 0s linear;
+    transition-delay: 500ms;
+}
