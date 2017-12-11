@@ -24,14 +24,15 @@ Make a step progress component.
 - Provide an easy setup `npm install` and `npm start`
 - Tell us how much time you spent on the task
 
-## Scripts:
+### <Scripts />:
 
 - Install `npm install`
 - Run it `npm start`
+- Visit [localhosto:3000](http://localhosto:3000)
 - Execute tests `npm test`;
 - Execute tests with coverage `npm test -- --coverage`;
 
-## Notes
+### 📝 Notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
