@@ -28,7 +28,7 @@ Make a step progress component.
 
 - Install `npm install`
 - Run it `npm start`
-- Visit [localhosto:3000](http://localhosto:3000)
+- Visit [localhost:3000](http://localhost:3000)
 - Execute tests `npm test`;
 - Execute tests with coverage `npm test -- --coverage`;
 
