@@ -43,6 +43,6 @@ Unit tests: Jest with Enzyme
 
 State manager: not required
 
-### 🎟 Demo
+### 🎟 Demo
 
 Check it out at this link [https://app.netlify.com/sites/gracious-wiles-1d71ec/overview](https://app.netlify.com/sites/gracious-wiles-1d71ec/overview)
