@@ -23,7 +23,7 @@ Make a step progress component.
 - Provide an easy setup `yarn install` and `yarn start`
 - Tell us how much time you spent on the task
 
-### <Scripts />:
+### </> Scripts:
 
 - Install `yarn install`
 - Run it `yarn start`
@@ -38,8 +38,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Coding time: 3~4 hours
 
 Styling: using BEM methodology
+
 Unit tests: Jest with Enzyme
+
 State manager: not required
 
-### Demo
+### 🎟 Demo
+
 Check it out at this link [https://app.netlify.com/sites/gracious-wiles-1d71ec/overview](https://app.netlify.com/sites/gracious-wiles-1d71ec/overview)
