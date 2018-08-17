@@ -7,7 +7,7 @@ import Dot from '../Dot';
 
 import './Step.css';
 
-export const Step = ({title, isFirst, isActive, onClick, step}) => {
+export const Step = ({title, isFirst, isActive, isClickable, onClick, step}) => {
   const stepDescriptionClassName = classNames('step__description', {
     'step__description--is-active': isActive,
   });
@@ -16,7 +16,7 @@ export const Step = ({title, isFirst, isActive, onClick, step}) => {
     <div className="step">
       { !isFirst && <Connection isActive={isActive}/> }
       <div className={stepDescriptionClassName}>{title}</div>
-      <Dot isActive={isActive} onClick={onClick} step={step}/>
+      <Dot isActive={isActive} onClick={onClick} step={step} isClickable={isClickable} />
     </div>
   )
 };

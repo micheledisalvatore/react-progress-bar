@@ -11,7 +11,7 @@ Make a step progress component.
 - You can't jump over a step
 - Write a simple test to check if the state has changed after click
 
-### 🔥 tips
+### 🔥 Tips
 
 - Make use of ES6
 - Use stateless components where possible
@@ -20,20 +20,23 @@ Make a step progress component.
 
 ### 📦 Deliverables
 
-- Please send the repo URL or a zip file to lev@moteefe.com
-- Provide an easy setup `npm install` and `npm start`
+- Provide an easy setup `yarn install` and `yarn start`
 - Tell us how much time you spent on the task
 
 ### <Scripts />:
 
-- Install `npm install`
-- Run it `npm start`
+- Install `yarn install`
+- Run it `yarn start`
 - Visit [localhost:3000](http://localhost:3000)
-- Execute tests `npm test`;
-- Execute tests with coverage `npm test -- --coverage`;
+- Execute tests `yarn test`;
+- Execute tests with coverage `yarn test -- --coverage`;
 
 ### 📝 Notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Coding time: 3~4 hours
+
+Styling: using BEM methodology
+Unit tests: Jest with Enzyme
+State manager: not required

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import './Dot.css';
 
-export const Dot = ({isActive, onClick, step}) => {
+export const Dot = ({isActive, isClickable, onClick, step}) => {
   const dotClassName = classNames('dot__image', {
     'dot__image--is-active': isActive,
   });
@@ -15,7 +15,7 @@ export const Dot = ({isActive, onClick, step}) => {
     onClick(step);
   };
 
-  return <button className="dot" onClick={handleClick}>
+  return <button className="dot" onClick={handleClick} disabled={!isClickable}>
     <svg className={dotClassName} viewBox="0 0 32 32"/>
   </button>
 };
