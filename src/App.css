@@ -18,3 +18,8 @@
   background-color: #d7ceff;
   border-color: #d7ceff;
 }
+
+.app__credits {
+  bottom: 0;
+  position: absolute;
+}

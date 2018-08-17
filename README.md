@@ -40,3 +40,6 @@ Coding time: 3~4 hours
 Styling: using BEM methodology
 Unit tests: Jest with Enzyme
 State manager: not required
+
+### Demo
+Check it out at this link [https://app.netlify.com/sites/gracious-wiles-1d71ec/overview](https://app.netlify.com/sites/gracious-wiles-1d71ec/overview)

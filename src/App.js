@@ -57,6 +57,10 @@ class App extends Component {
           <button name="increase" onClick={this.changeTotalSteps(true)} className="app__change-step" disabled={!this.canIncrease}>+</button>
         </div>
         <Steps total={steps} current={currentStep} onClick={this.onStepClick}/>
+        <div className="app__credits">
+          To check the source code, please visit the 
+          <a href="https://gitlab.com/michele.disalvatore/react-progress-bar" target="_blank" rel="noopener noreferrer">GitLab repository</a>
+        </div>
       </div>
     );
   }
