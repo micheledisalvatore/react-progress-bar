@@ -45,4 +45,4 @@ State manager: not required
 
 ### 🎟 Demo
 
-Check it out at this link [https://app.netlify.com/sites/gracious-wiles-1d71ec/overview](https://app.netlify.com/sites/gracious-wiles-1d71ec/overview)
+Check it out at this link [https://mds-react-progress-bar.netlify.com/](https://mds-react-progress-bar.netlify.com/)
