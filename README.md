@@ -43,6 +43,6 @@ Unit tests: Jest with Enzyme
 
 State manager: not required
 
-### 🎟 Demo
+### 🎟 Demo
 
 Check it out at this link [https://mds-react-progress-bar.netlify.com/](https://mds-react-progress-bar.netlify.com/)
