@@ -3,7 +3,7 @@
     height: 0.25em;
     background: #DBDBDB;
     position: absolute;
-    bottom: 1.3em;
+    bottom: 1.6em;
     left: calc(1.2em - 50%);
     z-index: 0;
 }
